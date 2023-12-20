@@ -1,0 +1,10 @@
+2023-12-14 11:22:20 INFO  [main                          ] 483  in Parameters           - Reading LogMap parameters from file.
+2023-12-14 11:25:34 INFO  [main                          ] 483  in Parameters           - Reading LogMap parameters from file.
+2023-12-14 11:25:35 INFO  [main                          ] 1307 in OWLRDFConsumer       - dumping remaining triples
+2023-12-14 11:25:35 INFO  [main                          ] 1341 in OWLRDFConsumer       - done dumping remaining triples
+2023-12-14 11:25:37 INFO  [main                          ] 1307 in OWLRDFConsumer       - dumping remaining triples
+2023-12-14 11:25:37 INFO  [main                          ] 1341 in OWLRDFConsumer       - done dumping remaining triples
+2023-12-14 11:26:33 INFO  [main                          ] 1307 in OWLRDFConsumer       - dumping remaining triples
+2023-12-14 11:26:33 INFO  [main                          ] 1341 in OWLRDFConsumer       - done dumping remaining triples
+2023-12-14 11:26:34 INFO  [main                          ] 1307 in OWLRDFConsumer       - dumping remaining triples
+2023-12-14 11:26:34 INFO  [main                          ] 1341 in OWLRDFConsumer       - done dumping remaining triples

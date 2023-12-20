@@ -1,0 +1,24 @@
+﻿{
+  // CHECK the documentation at https://icdcdn.who.int/tools/codefusion/index.html
+
+
+  //The lines that start with // are comments and will be ignored by the program
+  "inputFile": "/Users/tu/Documents/Dropbox/WHO (1)/Mapping Methods and Technologies/ICD10PTTitlesCodes-txt-source.txt", //could be and excel (.xlsx) or a tab separated text file (.txt)
+  "columnNo": 2, // the column number in the input file that contains the text to be matched
+  "fileContainsHeader": true, //true if the input file contains a header row. If true, the first row will be ignored during the processing
+
+  "version": "2023", //other examples: "2023" "2022" "2023-01". "beta", "daily" or "orange" for the  daily version
+  "source": "MMS", // could be "MMS" or "ICF", "ICHI" or "foundation"
+  "language": "en",
+
+  //"subtreeFilter": "http://id.who.int/icd/entity/1435254666" //use when you want to search only in a subtree(s) of the classification. 
+  //   By default the  whole classification is used for the  foundation.
+  //   MMS, ICHI and ICF have their defaults for subtreeFilter if it is not provided which searches the classifcation without the extension codes. MMS excludes TM and V chapters as well
+
+  "includeScoreInOutput": true //score is a value between 0 and 1 that indicates the similarity between the input text and the matched term
+  //"matchThreshold": 0.5, //the minimum score to be included in the output. The default is 0.43
+
+  //Advanced options
+  //"cacheDir":"c:/111",
+
+}
